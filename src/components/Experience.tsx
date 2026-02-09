@@ -3,7 +3,7 @@ import { Briefcase, Calendar } from "lucide-react";
 const experiences = [
   {
     period: "2022 - Présent",
-    title: "Développeur Web et Mobile Fullstack Junior",
+    title: "Développeur Web et Mobile Fullstack Intermédiaire",
     company: "MIAV SERVICE",
     description:
       "Prestataire en tant que développeur Full Stack Symfony/React & Laravel/Vite/React. Développement d'applications web de gestion de stocks et de commandes.",
