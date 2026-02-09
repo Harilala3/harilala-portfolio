@@ -54,7 +54,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex items-center justify-center lg:justify-start gap-4 mb-8 animate-fade-in-up" style={{ animationDelay: "0.4s" }}>
               <a
-                href="https://www.linkedin.com/in/harilal-a-rakotoarisoa-37494b328"
+                href="https://www.linkedin.com/in/harilala-rakotoarisoa-37494b328"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg glass hover:bg-primary hover:text-primary-foreground transition-all duration-300 glow-sm"
