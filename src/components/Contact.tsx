@@ -64,7 +64,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="https://www.linkedin.com/in/harilal-a-rakotoarisoa-37494b328"
+                href="https://www.linkedin.com/in/harilala-rakotoarisoa-37494b328"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 glass rounded-xl hover:border-primary/50 transition-all duration-300 group"
