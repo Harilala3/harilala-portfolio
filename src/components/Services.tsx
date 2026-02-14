@@ -1,11 +1,16 @@
 import { Globe, Smartphone, Layout, Settings, Search, Code, CheckCircle } from "lucide-react";
+import serviceWebApp from "@/assets/service-web-app.jpg";
+import serviceMobileApp from "@/assets/service-mobile-app.jpg";
+import serviceWebsite from "@/assets/service-website.jpg";
+import serviceMaintenance from "@/assets/service-maintenance.jpg";
+import serviceAudit from "@/assets/service-audit.jpg";
 
 const services = [
-  { icon: Globe, title: "Développement d'applications web", desc: "Sites vitrines, e-commerce, applications métiers..." },
-  { icon: Smartphone, title: "Développement d'applications mobiles", desc: "iOS, Android — Natives et cross-platform." },
-  { icon: Layout, title: "Création de sites web", desc: "Vitrines, blogs, portfolios, e-commerce..." },
-  { icon: Settings, title: "Maintenance et optimisation", desc: "Performance, sécurité, évolutivité." },
-  { icon: Search, title: "Conseil et audit technique", desc: "Analyse de besoins, solutions techniques." },
+  { icon: Globe, title: "Développement d'applications web", desc: "Sites vitrines, e-commerce, applications métiers...", image: serviceWebApp },
+  { icon: Smartphone, title: "Développement d'applications mobiles", desc: "iOS, Android — Natives et cross-platform.", image: serviceMobileApp },
+  { icon: Layout, title: "Création de sites web", desc: "Vitrines, blogs, portfolios, e-commerce...", image: serviceWebsite },
+  { icon: Settings, title: "Maintenance et optimisation", desc: "Performance, sécurité, évolutivité.", image: serviceMaintenance },
+  { icon: Search, title: "Conseil et audit technique", desc: "Analyse de besoins, solutions techniques.", image: serviceAudit },
 ];
 
 const technologies = [
@@ -41,14 +46,24 @@ const Services = () => {
             {services.map((service, index) => (
               <div
                 key={service.title}
-                className="glass rounded-xl p-6 hover:border-primary/50 transition-all duration-300 group animate-fade-in-up"
+                className="glass rounded-xl overflow-hidden hover:border-primary/50 transition-all duration-300 group animate-fade-in-up"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mb-4 group-hover:glow-sm transition-all duration-300">
-                  <service.icon className="text-primary" size={24} />
+                <div className="relative h-40 overflow-hidden">
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-card via-card/60 to-transparent" />
+                  <div className="absolute bottom-3 left-4 w-10 h-10 rounded-lg bg-primary/20 backdrop-blur-sm flex items-center justify-center border border-primary/30">
+                    <service.icon className="text-primary" size={20} />
+                  </div>
                 </div>
-                <h3 className="font-semibold text-lg mb-2">{service.title}</h3>
-                <p className="text-muted-foreground text-sm">{service.desc}</p>
+                <div className="p-5">
+                  <h3 className="font-semibold text-lg mb-2">{service.title}</h3>
+                  <p className="text-muted-foreground text-sm">{service.desc}</p>
+                </div>
               </div>
             ))}
           </div>
