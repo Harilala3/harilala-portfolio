@@ -5,6 +5,7 @@ const navLinks = [
   { name: "Accueil", href: "#home" },
   { name: "À propos", href: "#about" },
   { name: "Compétences", href: "#skills" },
+  { name: "Services", href: "#services" },
   { name: "Expériences", href: "#experience" },
   { name: "Formation", href: "#education" },
   { name: "Contact", href: "#contact" },
