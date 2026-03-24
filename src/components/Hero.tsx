@@ -46,9 +46,11 @@ const Hero = () => {
               <span className="text-primary font-semibold">Laravel/React</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-              Développeur web et mobile avec <span className="text-foreground font-semibold">+4 ans d'expérience</span>. 
-              Passionné par la création de solutions élégantes et performantes, 
-              je maîtrise Laravel, Symfony, React et les technologies mobiles.
+              Développeur web et mobile disposant de <span className="text-foreground font-semibold">plus de 4 ans d’expérience</span>, 
+              spécialisé dans la conception de solutions performantes, évolutives et orientées utilisateur. 
+              Je maîtrise des technologies fullstacks telles que Laravel, Symfony, React ainsi que les environnements mobiles. 
+              J’intègre également l’intelligence artificielle dans mes processus de développement afin d’optimiser la productivité, 
+              accélérer les cycles de livraison et améliorer la qualité globale des solutions produites.
             </p>
 
             {/* Social Links */}
