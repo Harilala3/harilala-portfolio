@@ -1,5 +1,5 @@
 import { ArrowDown, Github, Linkedin, Mail, Phone } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.png";
+import profilePhoto from "@/assets/photo-profil.png";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
@@ -22,7 +22,7 @@ const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           {/* Photo */}
           <div className="relative animate-fade-in">
-            <div className="relative w-64 h-64 lg:w-80 lg:h-80">
+            <div className="relative w-64 h-64 lg:w-80 lg:h-90">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-accent glow animate-pulse-glow" />
               <img
                 src={profilePhoto}
