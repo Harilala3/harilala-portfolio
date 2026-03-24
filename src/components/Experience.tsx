@@ -10,7 +10,7 @@ const experiences = [
     current: true,
   },
   {
-    period: "Déc 2024 - Fév 2025",
+    period: "2024 - 2025",
     title: "Formations Professionnelles",
     company: "ESTI (financées par FMFP)",
     description:

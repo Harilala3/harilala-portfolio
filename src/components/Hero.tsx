@@ -46,9 +46,9 @@ const Hero = () => {
               <span className="text-primary font-semibold">Laravel/React</span>
             </h2>
             <p className="text-muted-foreground leading-relaxed mb-8 animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
-              Développeur web et mobile avec <span className="text-foreground font-semibold">4 ans d'expérience</span>. 
+              Développeur web et mobile avec <span className="text-foreground font-semibold">+4 ans d'expérience</span>. 
               Passionné par la création de solutions élégantes et performantes, 
-              je maîtrise Symfony, Laravel, React et les technologies mobiles.
+              je maîtrise Laravel, Symfony, React et les technologies mobiles.
             </p>
 
             {/* Social Links */}

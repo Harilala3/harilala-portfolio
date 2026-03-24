@@ -12,22 +12,22 @@ const education = [
   {
     year: "2019 - 2022",
     title: "Licence en Informatique",
-    institution: "CNTEMAD Madagascar",
-    description: "Base de Données et Génie Logiciel",
+    institution: "Université CNTEMAD Madagascar",
+    description: "Informatique | Base de Données et Génie Logiciel",
     type: "degree",
   },
   {
     year: "2019",
     title: "Certificat en Électronique",
     institution: "FPTI Ampasapito",
-    description: "Formation en électronique",
+    description: "Formation Professionnelle Technique et Industrielle en Électronique",
     type: "certificate",
   },
   {
     year: "2016",
     title: "Baccalauréat Scientifique C",
     institution: "Lycée Privé Méthodique Ambatobe",
-    description: "Série Scientifique",
+    description: "Série Scientifique C",
     type: "degree",
   },
 ];

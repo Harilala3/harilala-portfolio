@@ -2,15 +2,15 @@ const skills = [
   { name: "Laravel", level: 90, category: "Backend" },
   { name: "Symfony", level: 85, category: "Backend" },
   { name: "React", level: 90, category: "Frontend" },
-  { name: "TypeScript", level: 80, category: "Frontend" },
+  { name: "TypeScript", level: 60, category: "Frontend" },
   { name: "PHP", level: 90, category: "Backend" },
   { name: "JavaScript", level: 85, category: "Frontend" },
   { name: "HTML5/CSS3", level: 95, category: "Frontend" },
   { name: "MySQL/PostgreSQL", level: 85, category: "Database" },
   { name: "Docker", level: 70, category: "DevOps" },
   { name: "Vite", level: 80, category: "Tools" },
-  { name: "Git", level: 85, category: "Tools" },
-  { name: "React Native", level: 75, category: "Mobile" },
+  { name: "Git", level: 90, category: "Tools" },
+  { name: "React Native", level: 50, category: "Mobile" },
 ];
 
 const languages = [

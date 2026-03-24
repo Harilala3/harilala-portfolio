@@ -14,9 +14,9 @@ const services = [
 ];
 
 const technologies = [
-  { label: "Backend", value: "Laravel (PHP)" },
-  { label: "Frontend", value: "React (JS/TS)" },
-  { label: "Mobile", value: "React Native, Flutter" },
+  { label: "Backend", value: "Laravel / Symfony (PHP)" },
+  { label: "Frontend", value: "React (JSX / TSX)" },
+  { label: "Mobile", value: "React Native" },
   { label: "Autres", value: "API REST, MySQL, PostgreSQL..." },
 ];
 
