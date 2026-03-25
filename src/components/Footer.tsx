@@ -12,7 +12,7 @@ const Footer = () => {
           </a>
 
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            © {currentYear} Fait avec <Heart size={14} className="text-primary" /> par Harilala Rakotoarisoa
+            Copyright © {currentYear} - Tous droits réservés.
           </p>
 
           <nav className="flex items-center gap-6">
